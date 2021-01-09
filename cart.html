@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+                <link rel="stylesheet" type="style.css">
+            body {
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .topnav {
+              overflow: hidden;
+              background-color: #ce96a6;
+            }
+            
+            .topnav a {
+              float: left;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+            
+            .topnav a:hover {
+              background-color: #ddd;
+              color: rgb(58, 58, 58);
+            }
+            
+            .topnav a.active {
+              background-color: #ce96a6;
+              color: white;
+            }
+            </style>
+            
+            <style>
+              * {box-sizing: border-box;}
+              
+              body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+              }
+              
+              .topnav {
+                overflow: hidden;
+                background-color: #ce96a6;
+              }
+              
+              .topnav a {
+                float: right;
+                display: block;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                padding: 18px 20px;
+                text-decoration: none;
+                font-size: 17px;
+              }
+              
+              .topnav a:hover {
+                background-color: #ce96a6;
+                color: black;
+              }
+              
+              .topnav a.active {
+                background-color: #ce96a6;
+                color: rgb(255, 255, 255);
+              }
+              
+              .topnav .login-container {
+                float: right;
+              }
+              
+              .topnav input[type=text] {
+                padding: 6px;
+                margin-top: 8px;
+                font-size: 17px;
+                border: none;
+                width:120px;
+              }
+              
+              .topnav .login-container button {
+                float: right;
+                padding: 6px 10px;
+                margin-top: 8px;
+                margin-right: 16px;
+                background-color: #555;
+                color: rgb(255, 255, 255);
+                font-size: 17px;
+                border: none;
+                cursor: pointer;
+              }
+              
+              .topnav .login-container button:hover {
+                background-color: rgb(250, 79, 0);
+              }
+              
+              @media screen and (max-width: 600px) {
+                .topnav .login-container {
+                  float: none;
+                }
+                .topnav a, .topnav input[type=text], .topnav .login-container button {
+                  float: none;
+                  display: block;
+                  text-align: left;
+                  width: 100%;
+                  margin: 0;
+                  padding: 14px;
+                }
+                .topnav input[type=text] {
+                  border: 1px solid rgb(204, 204, 204);  
+                }
+              }
+              </style>
+              </head>
+              <body>
+              
+              <div class="topnav">
+                <a class="active" href="feedback.html">Feedback</a>
+				<a class="active" href="cart.html">Cart</a>
+				<a class="active" href="product.html">Product</a>
+				<a class="active" href="printing.html">Printing</a>
+				<a class="active" href="about.html">About Us</a>
+				<a class="active" href="index.html">Home</a>
+                <div class="login-container"></div>
+                  <form action="/action_page.php">
+                  </form>
+                </div>
+              </div>
+            
+        <center><div class="container">
+            <div class="heading">
+              <center><i><h1>
+                <span class="shopper"></span>Shopping Cart
+              </h1></center></i>
+                 
+            </div>
+            
+            <div class="cart transition is-open">
+                
+                <div class="layout-inline row">
+                  
+                  <div class="col col-pro layout-inline">
+                    <img src="images/pm.jpg" alt= width:"800" height: "400">
+                   <center><p><b>Polaroid Printing</b></p></center> 
+                  </div>
+                  
+                  <div class="col col-price col-numeric align-center ">
+                    <p>RM 50.00</p>
+
+                    <div class="col col-pro layout-inline">
+                        <img src="images/pa.jpg" alt= width:"800" height: "400">
+                       <center><p><b>Polaroid Printing</b></p></center> 
+                      </div>
+                      
+                      <div class="col col-price col-numeric align-center ">
+                        <p>RM 20.00</p>
+                        <p><i>Per book</i></p>
+                      </div>
+                  </div>
+          
+            
+          </div></center>
